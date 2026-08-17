@@ -1,0 +1,17 @@
+{
+  "name": "six-room-arabic-music-bots",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Six Discord music bots with Arabic message commands and fixed voice channels.",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "play-dl": "^1.9.7"
+  }
+}
